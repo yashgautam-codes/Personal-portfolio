@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <div id="logo">
+                    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcXyOZQQNktC5haZTV57ilGd1S7if05O3FhN85QxUMRL03PYBK9S2mlaM&s" alt="">
+                </div>
+                <div class="text"><p onclick="goTo('hero')">Home</p></div>
+                 <div class="text"><p onclick="goTo('about')">About</p></div>
+                  <div class="text"><p onclick="goTo('projects')">Project</p></div>
+                   <div class="text"><p onclick="goTo('skills')">Skills</p></div>
+                   <div id="contact" > 
+                    <p style="text-align: center;">Contact</p>
+                    <!-- <p>+91 8368741704</p> -->
+                     <div class="contact-box">
+                        <p><i class="ri-phone-line"></i> +91 8368741704</p>
+                        <p><i class="ri-mail-fill"></i>  yashgaut8595@gmail.com</p>
+                     </div>
+                     <script>
+                        function goTo(section)
+                        {
+                            document.getElementById(section).scrollIntoView({
+                                behavior : "smooth"
+                            });
+                        }
+                     </script>
+                </div>
+                <div id="try"> 
+                    <a href="Resume.pdf" target="_blank">
+                        <p>Resume</p></a>
+                </div>
+            </div>
+            <div id="fakeheader"></div>
+            <div id="page1">
+                <div id="hero">
+                    <div id="belowheader">
+                        <div class="intext"> 
+                            <h3>Hi,I'm</h3>
+                            <h1>Yash <span 
+                            class="blue-name">Gautam</span></h1>
+                            <h2>A Paassionate learner & aspiring Web Developer</h2>
+                            <p>I love creating simple and clean websites using HTML and CSS.</p>
+                            <p>Currently exploring web development and building small projects <br>to improve my skills.</p>
+                            <h4 onclick="goTo('projects')">View My Projects</h4>
+                            <script>
+                        function goTo(section)
+                        {
+                            document.getElementById(section).scrollIntoView({
+                                behavior : "smooth"
+                            });
+                        }
+                     </script>
+                        </div>
+                    </div>
+                    <div id="pic"><img src="Pic.png" alt=""></div>
+                </div>
+                <div id="bh2">  
+                    <div id="about">
+                        <h1>About Me</h1>
+                        <p>I'm Yash Guatam, a Computer Science student who <br> loves building simple and usefull web applications. <br> I enjoy learning new skills, working on projects, and <br> turning ideas into reality. My goal is to become a <br> skilled software developer and contribute to <br> meaningful projects.</p>
+                    </div>
+                    <div id="info">
+                        <div class="info-item">
+                            <div class="icon"><i class="ri-graduation-cap-fill"></i></div>
+                            <div>
+                            <h3>Education</h3>
+                            <P>B.Tech in Coputer Science <br> (Currently Pursuing)</P>
+                        </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="icon"><i class="ri-map-pin-2-fill"></i></div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Ghaziabad, India</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="icon"><i class="ri-poker-hearts-fill"></i></div>
+                            <div>
+                                <h3>Intrests</h3>
+                                <p>Web Development, Problem Solving, <br>Technology</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="page2">
+                <div id="skills">
+                    <h1>My Skills</h1>
+                    <div id="skillboxes">
+                        <div class="skill">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXjh4Inq52Y1hMNWHsv4rbPNmrh4AgAZySxfUMWoN4w&s=10" alt="">
+                            <h3>HTML</h3>
+                            <p>Building web pages</p>
+                        </div>
+                        <div class="skill">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSG5rsNAhUs25FSj-wXkJvVqFjeC5o5REh-gYUfUXv0w&s=10" alt="">
+                            <h3>CSS</h3>
+                            <p>Styling and layout</p> 
+                        </div>
+                        <div class="skill">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-cmWNZXppeiCtgMg7lO-3XgZ2VS6d6A09cwCx2TFGRA&s=10" alt="">
+                            <h3>C/C++</h3>
+                            <p>Problem Solving</p>
+                        </div>
+                        <div class="skill">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwPs4aLjB6PrVFbGobXz0h7wluc7p07sCyaPnyTHvWSA&s=10" alt="">
+                            <h3>Git & GitHub</h3>
+                            <p>Version control</p>
+                        </div>
+                    </div>
+                </div>
+                 <div id="projects">
+                    <div class="projects-content">
+                    <h1 style="color: #0d1b2a; padding-left: 105px;">My Projects</h1>
+                        <div id="projectboxes">
+                            <div class="project">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1LC4eKRcR3S0TPnrlUlh8yTeNwE_ypPwji_aJfpYEaw&s=10" alt="">
+                                <h2>Game of Shapes</h2>
+                                <p>A simple and interactive project built using HTML and CSS with different shapes and hover effects.</p>
+                                <a href=" https://yashgautam-codes.github.io/Interactive-Shapes/" target="_blank"><p>View Project</p></a>
+                            </div>
+                            <div class="project">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeb5bcRzxolieKycfdnLFWe9I8wrq5wUX8dskBMD1BKg&s=10" alt="">
+                                <h2>Game of Cards</h2>
+                                <p>A responsive card layout with images and hover effects created using HTML and CSS.</p>
+                                <a href=" https://yashgautam-codes.github.io/Interactive-Card-Gallery/" target="_blank"><p>View Project</p></a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>             
+            </div>
+            <div id="page3">
+                <div id="contactme">
+                    <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        <p>Feel free to reach out if you want to connect or discuss any opportunities!</p>
+                    </div>
+                    <div class="contact-right">
+                        <div class="contact-item">
+                            <p><i class="ri-mail-fill"></i>  yashgaut8595@gmail.com</p> 
+                        </div>
+                        <div class="contact-item">
+                             <p><i class="ri-phone-line"></i> +91 8368741704</p>
+                        </div>
+                        <div class="contact-item">
+                            <p><i class="ri-map-pin-2-fill"></i> Ghaziabad, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
